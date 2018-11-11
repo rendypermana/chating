@@ -1,0 +1,16 @@
+
+<div>
+    {{#if nameIsSet}}
+    <div class="container">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel-body msg_container_base">
+               {{#list-messages}}{{/list-messages}}
+            </div>
+        </div>
+    </div>
+  {{else}}
+  <div class="text-center">
+      {{#chat-username}}{{/chat-username}}
+  </div>
+  {{/if}} 
+</div>

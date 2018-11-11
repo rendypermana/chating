@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chating</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for "head"}}
+
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/chat-app-ember.css">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light red-gradient-background">
+        <div class="container">
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <h2>Chating</h2>
+          </div>
+        </div>
+
+      </nav>
+
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/chat-app-ember.js"></script>
+
+    {{content-for "body-footer"}}
+  </body>
+</html>
