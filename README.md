@@ -7,3 +7,5 @@ $ npm install
 
 $ ember serve
 
+to avoid cors 
+$ node app.js
